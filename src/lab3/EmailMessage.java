@@ -1,4 +1,4 @@
-package main.java.zad5;
+/*package main.java.zad5;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -145,3 +145,4 @@ public class EmailMessage {
 
 
 }
+*/

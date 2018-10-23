@@ -1,4 +1,4 @@
-package main.java.zad5;
+/*package main.java.zad5;
 
 import javax.mail.*;
 import javax.mail.internet.*;
@@ -25,3 +25,4 @@ public class Zad5 {
 
     }
 }
+*/
