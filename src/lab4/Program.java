@@ -18,7 +18,7 @@ public class Program {
 
         FileReader fr = null;
         String linia = "";
-        
+
 
         // OTWIERANIE PLIKU:
         try {
