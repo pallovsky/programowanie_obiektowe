@@ -1,3 +1,4 @@
+/*
 package kolokwium.appl;
 
 import kolokwium.excp.NothingToSubstractFromException;
@@ -56,3 +57,4 @@ public class StringCalculator extends Calculator {
     }
 
 }
+*/

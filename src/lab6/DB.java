@@ -1,4 +1,6 @@
+/*
 import java.sql.*;
+
 package lab6;
 
     public class DB {
@@ -157,4 +159,4 @@ package lab6;
             }
             return null;
         }
-    }
+    } */

@@ -1,4 +1,6 @@
+/*
 package lab4;
+
 
 import lab2.Entry;
 
@@ -59,3 +61,4 @@ public class Program {
 
 
 }
+ */
