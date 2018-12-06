@@ -37,10 +37,11 @@ public class Program {
                 int newBegin = Integer.parseInt(linia_zmieniona[0]) + miliseconds_to_frames(delay, fps);
                 int newEnd = Integer.parseInt(linia_zmieniona[1]) + miliseconds_to_frames(delay, fps);
                 String newLine = "{" + Integer.toString(newBegin) + "}{" + Integer.toString(newEnd) + "}" + linia_zmieniona[2];
-                //System.out.print(newLine + "\n");
+                System.out.print(newLine + "\n");
                 //przekopiowanie do nowego pliku
                 File file2 = new File(out);
                 PrintWriter zapis = new PrintWriter(file2);
+
                 zapis.print(newLine + "\n");
                 zapis.close();
             }

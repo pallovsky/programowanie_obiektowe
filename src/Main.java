@@ -2,11 +2,8 @@ import lab2.Cryptographer.*;
 
 public class Main {
     public static void main (String args []){
-        Polybus szyfr = new Polybus();
-        String result = szyfr.crypt("szyfr");
-        System.out.print(result + "\n");
-        String g = szyfr.decrypt(result);
-        System.out.print(g);
+        for (int i=0; i<1000; i++){
+        System.out.print("KOCHAM JOLĘ I UWIELBIAM U NIEJ SPAĆ <3\n");}
     }
 }
 
