@@ -1,22 +1,16 @@
-/*
-package lab4;
 
+package lab4.MicroDVD;
 
-import lab2.Entry;
-
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.LinkedList;
 
 public class Program {
 
-    public double miliseconds_to_frames(const int miliseconds, const int fps){
+    public static int miliseconds_to_frames(int miliseconds, int fps){
         return (miliseconds*fps)/1000;
     }
 
-    public void delay(const char in, const char out,int delay, int fps){
+    public static void delay(String in, String out,int delay, int fps){
 
         FileReader fr = null;
         String linia = "";
@@ -24,7 +18,8 @@ public class Program {
 
         // OTWIERANIE PLIKU:
         try {
-            fr = new FileReader(in);
+            File file = new File(in);
+            fr = new FileReader(file);
         } catch (FileNotFoundException e) {
             System.out.println("BŁĄD PRZY OTWIERANIU PLIKU!");
             System.exit(1);
@@ -35,15 +30,21 @@ public class Program {
         try {
             while((linia = bfr.readLine()) != null){
                 //edycji linii w stringu
-                String linia_zmieniona[]=null;
+                String linia_zmieniona[];
                 linia_zmieniona=linia.split("}");
                 linia_zmieniona[0]=linia_zmieniona[0].substring(1);
                 linia_zmieniona[1]=linia_zmieniona[1].substring(1);
-                int begin = Integer.parseInt(linia_zmieniona[0]);
-                int end = Integer.parseInt(linia_zmieniona[1]);
+                int newBegin = Integer.parseInt(linia_zmieniona[0]) + miliseconds_to_frames(delay, fps);
+                int newEnd = Integer.parseInt(linia_zmieniona[1]) + miliseconds_to_frames(delay, fps);
+                String newLine = "{" + Integer.toString(newBegin) + "}{" + Integer.toString(newEnd) + "}" + linia_zmieniona[2];
+                //System.out.print(newLine + "\n");
                 //przekopiowanie do nowego pliku
-
+                File file2 = new File(out);
+                PrintWriter zapis = new PrintWriter(file2);
+                zapis.print(newLine + "\n");
+                zapis.close();
             }
+
         } catch (IOException e) {
             System.out.println("BŁĄD ODCZYTU Z PLIKU!");
             System.exit(2);
@@ -58,7 +59,8 @@ public class Program {
         }
 
     }
-
+    public static void main (String args []){
+        delay("/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab4/MicroDVD/napisy", "/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab4/MicroDVD/out", 3000, 60);
+    }
 
 }
- */
