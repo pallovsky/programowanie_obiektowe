@@ -82,8 +82,8 @@ public class HeapTest {
 
 	@Test
 	public void mergeTest(){
-		Heap h1 = new Heap;
-		Heap h2 = new Heap;
+		Heap h1 = new Heap();
+		Heap h2 = new Heap();
 		h1.insert(1);
 		h1.insert(2);
 		h2.insert(3);
@@ -100,8 +100,8 @@ public class HeapTest {
 
 	@Test
 	public void meldTest(){
-		Heap heap = new Heap;
-		Heap h2 = new Heap;
+		Heap heap = new Heap();
+		Heap h2 = new Heap();
 		heap.insert(4);
 		heap.insert(3);
 		h2.insert(2);

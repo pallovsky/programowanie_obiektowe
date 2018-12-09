@@ -24,7 +24,7 @@ public class Program {
             System.exit(1);
         }
         BufferedReader bfr = new BufferedReader(fr);
-
+        String new_content="";
         // ODCZYT KOLEJNYCH LINII Z PLIKU:
         try {
             while((linia = bfr.readLine()) != null){
@@ -35,12 +35,12 @@ public class Program {
                 linia_zmieniona[1]=linia_zmieniona[1].substring(1);
                 int newBegin = Integer.parseInt(linia_zmieniona[0]) + miliseconds_to_frames(delay, fps);
                 int newEnd = Integer.parseInt(linia_zmieniona[1]) + miliseconds_to_frames(delay, fps);
-                String newLine = "{" + Integer.toString(newBegin) + "}{" + Integer.toString(newEnd) + "}" + linia_zmieniona[2];
-                System.out.print(newLine + "\n");
+                String newLine = "{" + Integer.toString(newBegin) + "}{" + Integer.toString(newEnd) + "}" + linia_zmieniona[2] + '\n';
+                new_content = new_content + newLine;
+                //System.out.print(newLine + "\n");
                 //przekopiowanie do nowego pliku
                 File file2 = new File(out);
                 PrintWriter zapis = new PrintWriter(file2);
-
                 zapis.print(newLine + "\n");
                 zapis.close();
             }
@@ -58,9 +58,22 @@ public class Program {
             System.exit(3);
         }
 
+        File file2 = new File(out);
+        try {
+            PrintWriter zapis = new PrintWriter(file2);
+            zapis.print(new_content + "\n");
+            zapis.close();
+        }
+        catch (IOException e){
+            System.out.println("BŁĄD PRZY OTWIERANIU PLIKU!");
+            System.exit(1);
+        }
+
+
     }
+    
     public static void main (String args []){
-        delay("/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab4/MicroDVD/napisy", "/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab4/MicroDVD/out", 3000, 60);
+        delay("/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab3/MicroDVD/napisy", "/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab3/MicroDVD/out", 3000, 60);
     }
 
 }
