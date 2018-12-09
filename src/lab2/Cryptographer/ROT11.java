@@ -1,4 +1,4 @@
-package Other.Cryptographer;
+package lab2.Cryptographer;
 
 public class ROT11 implements Algorithm{
 

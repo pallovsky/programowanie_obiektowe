@@ -71,7 +71,7 @@ public class Program {
 
 
     }
-    
+
     public static void main (String args []){
         delay("/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab3/MicroDVD/napisy", "/home/krzysztof/IdeaProjects/programowanie_obiektowe/src/lab3/MicroDVD/out", 3000, 60);
     }

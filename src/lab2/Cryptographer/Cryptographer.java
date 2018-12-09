@@ -1,5 +1,5 @@
 /*
-package Other.Cryptographer;
+package lab2.Cryptographer;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
