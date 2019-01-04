@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afda888b-e011-4ef7-b489-30bc1707ddfd" name="Default Changelist" comment="09.12.18 - Drobna poprawa MicroDVD - działa.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/DrawHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/Histogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/SimpleFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab5/SimpleTestFrame.java" afterDir="false" />
+    <list default="true" id="afda888b-e011-4ef7-b489-30bc1707ddfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lab6/UserBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/DiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/GenerateRandoms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/MaxMultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab8/EchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obiektowe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/obiektowe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/Cryptographer/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Cryptographer/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/Cryptographer/Cryptographer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Cryptographer/Cryptographer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/Cryptographer/Polybus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Cryptographer/Polybus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/Cryptographer/ROT11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Cryptographer/ROT11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other/EmailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/EmailMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab3/MicroDVD/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/MicroDVD/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab6/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6/DB.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Test/target/" />
@@ -37,10 +32,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="autoscrollToSource" value="true" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-97129111">
@@ -88,72 +79,96 @@
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.80" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="8323" />
-          <entry key="txt" value="268" />
+          <entry key="java" value="8373" />
+          <entry key="txt" value="423" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8323" />
-          <entry key="PLAIN_TEXT" value="270" />
+          <entry key="JAVA" value="8373" />
+          <entry key="PLAIN_TEXT" value="425" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="71" />
+          <entry key="java" value="87" />
           <entry key="md" value="1" />
           <entry key="napisy" value="3" />
           <entry key="out" value="2" />
           <entry key="plik" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="2" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="71" />
+          <entry key="JAVA" value="87" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lab5/DrawHistogram.java">
+        <entry file="file://$PROJECT_DIR$/src/lab7/DiningPhilosophers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="1725">
+              <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
               <folding>
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lab5/Histogram.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab6/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+            <state relative-caret-position="1200">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lab7/MaxMultiThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lab7/GenerateRandoms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2510#2511#0" expanded="true" />
-                <element signature="e#2538#2539#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,13 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lab1/PrimeNumbers.java" />
-        <option value="$PROJECT_DIR$/src/lab1/PrimeNumbersCall.java" />
-        <option value="$PROJECT_DIR$/src/lab1/Login.java" />
-        <option value="$PROJECT_DIR$/src/lab2/Punkt2D.java" />
-        <option value="$PROJECT_DIR$/src/lab2/Punkt3D.java" />
-        <option value="$PROJECT_DIR$/src/lab2/Test.java" />
-        <option value="$PROJECT_DIR$/src/lab3/Shape.java" />
         <option value="$PROJECT_DIR$/src/lab3/Triangle.java" />
         <option value="$PROJECT_DIR$/src/lab3/Square.java" />
         <option value="$PROJECT_DIR$/src/lab1/DataFrame.java" />
@@ -200,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/lab4/Kadra/Program.java" />
         <option value="$PROJECT_DIR$/src/lab4/Student.java" />
         <option value="$PROJECT_DIR$/src/lab4/napisy" />
-        <option value="$PROJECT_DIR$/src/lab6/DB.java" />
         <option value="$PROJECT_DIR$/src/kolokwium/Tests/StringCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/kolokwium/appl/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/kolokwium/appl/StringCalculator.java" />
@@ -223,9 +230,19 @@
         <option value="$PROJECT_DIR$/src/lab3/MicroDVD/Program.java" />
         <option value="$PROJECT_DIR$/src/lab5/histogram.java" />
         <option value="$PROJECT_DIR$/src/lab5/SimpleFrame.java" />
-        <option value="$PROJECT_DIR$/src/lab5/SimpleTestFrame.java" />
         <option value="$PROJECT_DIR$/src/lab5/DrawHistogram.java" />
         <option value="$PROJECT_DIR$/src/lab5/Histogram.java" />
+        <option value="$PROJECT_DIR$/src/lab5/SimpleTestFrame.java" />
+        <option value="$PROJECT_DIR$/src/lab7/Echo.java" />
+        <option value="$PROJECT_DIR$/src/lab7/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/lab7/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/lab8/BD.java" />
+        <option value="$PROJECT_DIR$/src/lab8/UserBD.java" />
+        <option value="$PROJECT_DIR$/src/lab7/d.java" />
+        <option value="$PROJECT_DIR$/src/lab7/DiningPhilosophers.java" />
+        <option value="$PROJECT_DIR$/src/lab6/DB.java" />
+        <option value="$PROJECT_DIR$/src/lab7/MaxMultiThread.java" />
+        <option value="$PROJECT_DIR$/src/lab7/GenarateRandoms.java" />
       </list>
     </option>
   </component>
@@ -247,7 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,19 +281,13 @@
               <item name="programowanie_obiektowe" type="b2602c69:ProjectViewProjectNode" />
               <item name="programowanie_obiektowe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="programowanie_obiektowe" type="b2602c69:ProjectViewProjectNode" />
               <item name="programowanie_obiektowe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lab5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programowanie_obiektowe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programowanie_obiektowe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Other" type="462c0819:PsiDirectoryNode" />
+              <item name="lab7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="programowanie_obiektowe" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +297,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,7 +306,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544387470694" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546632730917" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -313,11 +324,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lab8" />
       <recent name="$PROJECT_DIR$/src/lab2" />
       <recent name="$PROJECT_DIR$/src/Other" />
       <recent name="$PROJECT_DIR$/src/Other/Kadra" />
       <recent name="$PROJECT_DIR$/src/temp" />
-      <recent name="$PROJECT_DIR$/src/lab3/MicroDVD" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,7 +343,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Histogram">
+  <component name="RunManager" selected="Application.MaxMultiThread">
+    <configuration name="DiningPhilosophers" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab7.DiningPhilosophers" />
+      <module name="obiektowe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab8.EchoClient" />
+      <module name="obiektowe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Histogram" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="javafx_histogram.Histogram" />
       <module name="obiektowe" />
@@ -353,6 +378,13 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxMultiThread" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab7.MaxMultiThread" />
+      <module name="obiektowe" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -381,7 +413,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DiningPhilosophers" />
+      <item itemvalue="Application.MaxMultiThread" />
       <item itemvalue="Application.Histogram" />
+      <item itemvalue="Application.EchoClient" />
       <item itemvalue="Application.SimpleFrame" />
       <item itemvalue="Application.PESEL" />
       <item itemvalue="Application.MicroDVD" />
@@ -420,7 +455,9 @@
       <workItem from="1544093155682" duration="2810000" />
       <workItem from="1544109241411" duration="3493000" />
       <workItem from="1544368639685" duration="173000" />
-      <workItem from="1544368863993" duration="12815000" />
+      <workItem from="1544368863993" duration="13724000" />
+      <workItem from="1544533478856" duration="2702000" />
+      <workItem from="1546629378557" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1540290663850</created>
@@ -478,17 +515,23 @@
       <option name="project" value="LOCAL" />
       <updated>1544382638209</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="09.12.18 - Dodanie przykładowej aplikacji z użyciem swinga z labków. Dodatkowe porządki w katalogu plików. JavaFX dalej nie działa, co odbiera mi chęci do życia.">
+      <created>1544387562838</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544387562838</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59656000" />
+    <option name="totallyTimeSpent" value="66309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32749003" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33864543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -507,7 +550,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.19565217" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -563,7 +606,8 @@
     <MESSAGE value="06.12.18 - rozpoczęcie pracy z MaxHeap z lab5." />
     <MESSAGE value="09.12.18 - Uporządkowanie zadań według numeru laboratoriów na stronie. Dodanie metod i testów do MaxHeap." />
     <MESSAGE value="09.12.18 - Drobna poprawa MicroDVD - działa." />
-    <option name="LAST_COMMIT_MESSAGE" value="09.12.18 - Drobna poprawa MicroDVD - działa." />
+    <MESSAGE value="09.12.18 - Dodanie przykładowej aplikacji z użyciem swinga z labków. Dodatkowe porządki w katalogu plików. JavaFX dalej nie działa, co odbiera mi chęci do życia." />
+    <option name="LAST_COMMIT_MESSAGE" value="09.12.18 - Dodanie przykładowej aplikacji z użyciem swinga z labków. Dodatkowe porządki w katalogu plików. JavaFX dalej nie działa, co odbiera mi chęci do życia." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,44 +621,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lab1/PrimeNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab2/Punkt2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab2/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab2/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab1/PrimeNumbersCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lab2/Punkt3D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -697,13 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab6/DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -809,26 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab4/maxheap/src/main/java/pl/edu/agh/kis/java2015/domain/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="method#Heap#0;class#Heap#0" />
-            <element signature="method#Heap#1;class#Heap#0" />
-            <element signature="method#insert#0;class#Heap#0" />
-            <element signature="method#isChildGreaterThanParent#0;class#Heap#0" />
-            <element signature="method#swapElements#0;class#Heap#0" />
-            <element signature="method#parentValue#0;class#Heap#0" />
-            <element signature="method#extractMax#0;class#Heap#0" />
-            <element signature="method#deleteMax#0;class#Heap#0" />
-            <element signature="method#heapify#0;class#Heap#0" />
-            <element signature="method#replace#0;class#Heap#0" />
-            <element signature="method#merge#0;class#Heap#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -843,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,47 +852,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/SimpleTestFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab5/DrawHistogram.java" />
     <entry file="file://$PROJECT_DIR$/src/lab5/SimpleFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab5/SimpleTestFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab4/maxheap/src/main/java/pl/edu/agh/kis/java2015/domain/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab8/polish-dic.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab8/BD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="164" lean-forward="true" selection-start-line="5" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab8/UserBD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab8/BD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2494#2495#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5/DrawHistogram.java">
+    <entry file="file://$PROJECT_DIR$/src/lab6/UserBD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/d.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab5/Histogram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+        <state relative-caret-position="690">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2538#2539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab8/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab8/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/DiningPhilosophers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/MaxMultiThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab6/DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab7/GenerateRandoms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

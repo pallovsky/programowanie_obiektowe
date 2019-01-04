@@ -1,14 +1,11 @@
-/*
 import java.sql.*;
-
-package lab6;
 
     public class DB {
         private Connection conn = null;
         private Statement stmt = null;
         private ResultSet rs = null;
 
-        public void connect() {
+        private void connect() {
             try {
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
                 conn =
@@ -66,11 +63,11 @@ package lab6;
             }
         }
 
-        public void addBook(String isbn, String title, String author, String year) {
+        public void addBook(String isbn, String title, String author, String year) throws SQLException {
             stmt = conn.createStatement();
-            stmt.executeUpdate(
+            final int i = stmt.executeUpdate(
                     "INSERT INTO books "
-                            + "VALUES " + isbn + ", " + title + ", " + author + ", " + year + ", ")
+                            + "VALUES " + isbn + ", " + title + ", " + author + ", " + year + ", ");
         }
 
         public String searchByISBN(String isbn){
@@ -89,7 +86,7 @@ package lab6;
                         String title = rs.getString(2);
                         String author = rs.getString(3);
                         String year = rs.getString(4);
-                        return new_isbn + title + author + year
+                        return new_isbn + title + author + year;
                         }
                 }
             } catch (SQLException ex) {
@@ -132,7 +129,7 @@ package lab6;
                         String new_title = rs.getString(2);
                         String author = rs.getString(3);
                         String year = rs.getString(4);
-                        return isbn + new_title + author + year
+                        return isbn + new_title + author + year;
                     }
                 }
             } catch (SQLException ex) {
@@ -159,4 +156,4 @@ package lab6;
             }
             return null;
         }
-    } */
+    }
