@@ -1,11 +1,11 @@
-package Other;
+package projekt;
 
 public class Entry {
     private String word;
     private String clue;
-    public Entry(String w, String c){
-        word=w;
-        clue=c;
+    public Entry(String word, String clue){
+        this.word=word;
+        this.clue=clue;
     }
     public String getWord(){return word;}
     public String getClue(){return clue;}
