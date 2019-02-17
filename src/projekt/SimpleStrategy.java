@@ -16,7 +16,7 @@ public class SimpleStrategy extends Strategy {
 
     }
 
-    public Crossword generateCw(InteliCwDB ICw){
+    public static Crossword generateCw(InteliCwDB ICw){
         Crossword result = new Crossword();
         result.setCwdb(ICw);
 
@@ -39,17 +39,17 @@ public class SimpleStrategy extends Strategy {
         }
         result.setEntries(ListOfCwEntries);
 
-        BoardCell[][] boardCells = new BoardCell[length][EntryRand.getWord().length()];
-        for (int i = 0; i < length; i ++){
-            for (int j = 0; j < EntryRand.getWord().length(); j++){
-                if (j <= ListOfEntries.get(j).getWord().length()){
+        BoardCell[][] boardCells;
+        boardCells = new BoardCell[length][EntryRand.getWord().length()];
+
+        for (int i = 0; i < length ; i ++){
+            for (int j = 0; j < EntryRand.getWord().length() ; j++)
+                if (j < ListOfEntries.get(j).getWord().length() ) {
                     String content = ListOfEntries.get(j).getWord().charAt(j) + "";
-                    boardCells[i][j].setContent(content);
+                    boardCells[i][j] = new BoardCell(content);
+                } else {
+                    boardCells[i][j] = new BoardCell(" ");
                 }
-                else {
-                    boardCells[i][j].setContent(null);
-                }
-            }
         }
         result.setB(new Board(boardCells));
 

@@ -1,9 +1,6 @@
 package projekt;
 
 public class BoardCell {
-    public BoardCell(){
-        content = null;
-    }
 
     public BoardCell(String content){
         this.content = content;

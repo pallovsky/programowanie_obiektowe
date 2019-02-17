@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Random;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class InteliCwDB extends CwDB {
@@ -28,8 +29,10 @@ public class InteliCwDB extends CwDB {
     public LinkedList<Entry> findAll(String pattern){
         LinkedList<Entry> result = new LinkedList<>();
         Pattern p = Pattern.compile(pattern);
+
         for (Entry aDict : dict) {
-            if (p.matcher(aDict.getWord()).matches()){
+            Matcher m = p.matcher(aDict.getWord());
+            if (m.find()){
                 result.add(aDict);
             }
         }

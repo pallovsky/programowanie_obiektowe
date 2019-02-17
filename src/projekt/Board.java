@@ -10,6 +10,21 @@ public class Board {
         board = null;
     }
 
+    public void printBoard() {
+        if (this.board != null) {
+            for (int i = 0; i < this.getWidth(); i++) {
+                for (int j = 0; j < this.getHeight(); j++){
+                    if (board[i][j] != null){
+                    System.out.print(board[i][j].getContent() + " ");
+                    }
+                }
+                System.out.print("\n");
+            }
+        }
+        else {
+            System.out.print("Board is empty");
+        }
+    }
     public Board(BoardCell[][] board){
         this.board = board;
     }
