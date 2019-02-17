@@ -26,12 +26,12 @@ public class Board {
         board[x][y] = c;
     }
 
-    public LinkedList<BoardCell> getStartCells(){
+    //public LinkedList<BoardCell> getStartCells(){
 
-    }
+    //}
 
-    createPattern(int fromx, int fromy, int tox, int toy) {
+    //public void createPattern(int fromx, int fromy, int tox, int toy) {
 
-    }
+    //}
 
 }

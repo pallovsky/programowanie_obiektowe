@@ -1,6 +1,5 @@
 package projekt;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Crossword {
@@ -15,6 +14,12 @@ public class Crossword {
         this.cwdb = cwdb;
     }
 
+    public Crossword(){
+        entries = null;
+        b = null;
+        cwdb = null;
+    }
+
     public Board getBoardCopy(){
         Board b = this.b;
         return b;}
@@ -23,7 +28,28 @@ public class Crossword {
 
     public void setCwDB(InteliCwDB cwdb){this.cwdb = cwdb;}
 
-    public boolean contains(String word){}
+    public void setEntries(LinkedList<CwEntry> entries) {
+        this.entries = entries;
+    }
 
-    public final void addCwEntry(CwEntry cwe, Strategy s){}
+    public void setB(Board b) {
+        this.b = b;
+    }
+
+    public void setCwdb(InteliCwDB cwdb) {
+        this.cwdb = cwdb;
+    }
+
+    public boolean contains(String word){
+        for (Entry ACw: cwdb.dict){
+            if(ACw.getWord() == word){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public final void addCwEntry(CwEntry cwe, Strategy s){
+        entries.add(cwe);
+    }
 }
