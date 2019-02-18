@@ -44,9 +44,13 @@ public class SimpleStrategy extends Strategy {
         boardCells = new BoardCell[height][length];
         for (int x = 0; x < height; x++){
             for (int y = 0; y < length; y++){
+                int number = 0;
+                if (y == 0){
+                    number = x + 1;
+                }
                 if (y < ListOfEntries.get(x).getWord().length()){
                     String content = ListOfEntries.get(x).getWord().charAt(y) + "";
-                    boardCells[x][y] = new BoardCell(content);
+                    boardCells[x][y] = new BoardCell(content, number);
                 }
             }
         }

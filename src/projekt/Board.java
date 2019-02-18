@@ -15,7 +15,7 @@ public class Board {
             for (int i = 0; i < this.getWidth(); i++) {
                 for (int j = 0; j < this.getHeight(); j++){
                     if (board[i][j] != null){
-                    System.out.print(board[i][j].getContent() + " ");
+                    System.out.print(board[i][j].getContent()  + i + j+ " ");
                     }
                 }
                 System.out.print("\n");
@@ -40,7 +40,17 @@ public class Board {
     public void setCell(int x, int y, BoardCell c) {
         board[x][y] = c;
     }
-
+/*
+    public String getLineRegexp(int x) throws WordInLineException, WrongLineException{
+        if (x < 0 || x > this.getWidth()){
+            throw new WrongLineException();
+        }
+        String Regexp = "";
+        for (int i = 0; i < this.getWidth(); i++){
+            board[][x];
+        }
+    }
+*/
     //public LinkedList<BoardCell> getStartCells(){
 
     //}

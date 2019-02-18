@@ -2,11 +2,22 @@ package projekt;
 
 public class BoardCell {
 
-    public BoardCell(String content){
+    public BoardCell(String content, int number){
         this.content = content;
+        this.number = number;
     }
 
-    private String content;
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    private int number = 0;
+
+    private String content = null;
 
     public String getContent() {
         return content;
