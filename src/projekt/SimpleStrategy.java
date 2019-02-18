@@ -28,29 +28,29 @@ public class SimpleStrategy extends Strategy {
         ICwCopy.dict.remove(EntryRand);
         int length = 0;
         for (int i=0; i<EntryRand.getWord().length(); i++){
-            Entry EntryRand1 = ICwCopy.getRandom(EntryRand.getWord().substring(0,1));
+            Entry EntryRand1 = ICwCopy.getRandom("^" + EntryRand.getWord().substring(i,i+1));
             ListOfEntries.add(EntryRand1);
             ICwCopy.dict.remove(EntryRand1);
 
             ListOfCwEntries.add(new CwEntry(EntryRand1.getWord(), EntryRand1.getClue(), CwEntry.Direction.HORIZ));
-            if (length < EntryRand.getWord().length()){
-                length = EntryRand.getWord().length();
+            if (length < EntryRand1.getWord().length()){
+                length = EntryRand1.getWord().length();
             }
         }
         result.setEntries(ListOfCwEntries);
 
         BoardCell[][] boardCells;
-        boardCells = new BoardCell[length][EntryRand.getWord().length()];
-
-        for (int i = 0; i < length ; i ++){
-            for (int j = 0; j < EntryRand.getWord().length() ; j++)
-                if (j < ListOfEntries.get(j).getWord().length() ) {
-                    String content = ListOfEntries.get(j).getWord().charAt(j) + "";
-                    boardCells[i][j] = new BoardCell(content);
-                } else {
-                    boardCells[i][j] = new BoardCell(" ");
+        int height = EntryRand.getWord().length();
+        boardCells = new BoardCell[height][length];
+        for (int x = 0; x < height; x++){
+            for (int y = 0; y < length; y++){
+                if (y < ListOfEntries.get(x).getWord().length()){
+                    String content = ListOfEntries.get(x).getWord().charAt(y) + "";
+                    boardCells[x][y] = new BoardCell(content);
                 }
+            }
         }
+
         result.setB(new Board(boardCells));
 
         return result;

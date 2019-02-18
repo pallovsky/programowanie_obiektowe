@@ -28,6 +28,22 @@ public class Crossword {
 
     public void setCwDB(InteliCwDB cwdb){this.cwdb = cwdb;}
 
+    public LinkedList<CwEntry> getEntries() {
+        return entries;
+    }
+
+    public Board getB() {
+        return b;
+    }
+
+    public InteliCwDB getCwdb() {
+        return cwdb;
+    }
+
+    public long getID() {
+        return ID;
+    }
+
     public void setEntries(LinkedList<CwEntry> entries) {
         this.entries = entries;
     }

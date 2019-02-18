@@ -59,9 +59,14 @@ public class InteliCwDB extends CwDB {
 
     public Entry getRandom(String pattern){
         LinkedList<Entry> list = this.findAll(pattern);
-        Random rand = new Random();
-        int random = rand.nextInt(list.size());
-        return list.get(random);
+        if (!list.isEmpty()){
+            Random rand = new Random();
+            int random = rand.nextInt(list.size());
+            return list.get(random);
+        }
+        else {
+            return this.getRandom(pattern);
+        }
     }
 
 
